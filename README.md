@@ -37,7 +37,7 @@
     * [git checkout](#git-checkout)
     * [git merge](#git-merge)
     * [Merge Conflicts](#merge-conflicts)
-    * [git ammend](#git-ammend)
+    * [git amend](#git-amend)
     * [git revert](#git-revert)
 * [Conclusion](#conclusion)
 * [Useful Resources](#useful-resources)
@@ -681,7 +681,7 @@ git revert 6c3e98cda90845d396b464eab32f8a60908c7e99
 
 This will create a new commit that undoes the changes made in the specified commit.
 
-# git ammend
+# git amend
 
 Now, let's say you made a commit, but you forgot to add a file to the commit. You can do this by running the following command in the terminal:
 
@@ -696,7 +696,7 @@ This will add the `forgotten-file.txt` file to the last commit. You can also cha
 git commit --amend -m "Add forgotten-file.txt"
 ```
 
-Ammend essentially allows you to add changes to the last commit without creating a new commit.
+amend essentially allows you to add changes to the last commit without creating a new commit.
 
 # Conclusion
 
